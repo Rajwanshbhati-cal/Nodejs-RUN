@@ -1,4 +1,4 @@
-FROM Node
+FROM node
 
 copy . .
 
