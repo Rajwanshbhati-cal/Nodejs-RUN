@@ -2,7 +2,7 @@ FROM node
 
 Copy . .
 
-Run npm install
+RUN npm install
 
 EXPOSE 3000
 
