@@ -1,9 +1,9 @@
 FROM node
 
-copy . .
+Copy . .
 
 Run npm install
 
 EXPOSE 3000
 
-cmd ["node", "main.js"]
+CMD ["node", "main.js"]
